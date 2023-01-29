@@ -67,19 +67,19 @@ a:active{
 .logo {
     position: absolute;
     right: 20px;
-    line-height: 60px;
+    line-height: 3vh;
     text-align: right;
     width: 50%;
 }
 
 .logo1{
-    font-size: 4vw;
+    font-size: 6vw;
     font-family: Garamond;
     text-align: center;
 }
 
 .logo2{
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-align: center;
     font-family: Gabriola;
 }
