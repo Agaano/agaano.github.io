@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Garamond";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Garamond"),
+    url("./fonts/CormorantGaramond-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Gabriola";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Gabriola"),
+    url("./fonts/gabriola.ttf") format("ttf");
+}
+
+header {
+
+}
+body {
+    user-select: none;
+    background: url("./penix/Слой 2.png");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+
+a:active{
+    color: #ff8040;
+    transition-duration: 0.1s;
+}
+
+.header_top {
+    width: 87.5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-top: 100px;
+    display: flex;
+}
+
+.info {
+    width: 60%;
+    height: 55%;
+    font-size: 25px;
+    font-family: Gabriola;
+}
+
+.demoimg {
+    display: none;
+}
+
+.buttons {
+    margin-top:30px;
+    display: flex;
+    column-gap: 5vw;
+    font-size: 4vw;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+}
+
+.button {
+    border: 1px solid white;
+}
+
+.logo {
+    position: absolute;
+    right: 20px;
+    line-height: 3vh;
+    text-align: right;
+    width: 50%;
+}
+
+.logo1{
+    font-size: 6vw;
+    font-family: Garamond;
+    text-align: center;
+}
+
+.logo2{
+    font-size: 2vw;
+    text-align: center;
+    font-family: Gabriola;
+}
+
+.header_bot {
+    font-size: initial;
+    font-family: Garamond;
+    width: 87.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    color: white;
+    border-left: 2px solid white;
+    padding-left: 10px;
+}
+
+.group_of_imgs {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    width: 90%;
+    height: 40vh;
+    left: 7vw;
+}
+
+.img1 {
+    background-image: url("./penix/img_1.png");
+}
+
+.img2 {
+    background-image: url("./penix/img_3.png");
+}
+
+
+.img3 {
+    background-image: url("./penix/img_2.png");
+}
+
+.img {
+    padding-top: 10px;
+    margin-bottom: 1vh;
+    border-radius: 90px;
+    background-size: 70vh;
+    filter: brightness(90%) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-position: 50%;
+    width: 100%;
+    height: 15vh;
+}
+
+.content {
+    display: none;
+    position: center;
+    font-size: 1vh;
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(0,0,0,0.5);
+    width: 90%;
+    height: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+    border-radius: 90px;
+}
+
+
+
