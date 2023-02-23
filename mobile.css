@@ -93,7 +93,7 @@ a:active{
 }
 
 .header_bot {
-    font-size: initial;
+    font-size: 1.2vh;
     font-family: Garamond;
     width: 87.5%;
     height: 20vh;
