@@ -93,7 +93,7 @@ a:active{
 }
 
 .header_bot {
-    font-size: 1.2vh;
+    font-size: initial;
     font-family: Garamond;
     width: 87.5%;
     height: 20vh;
@@ -103,6 +103,18 @@ a:active{
     color: white;
     border-left: 2px solid white;
     padding-left: 10px;
+}
+
+.header_bot.forcatalog {
+    font-size: 2vh;
+    font-family: Garamond;
+    border: none;
+    display: flex;
+    width: 88.4%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    color: white;
 }
 
 .group_of_imgs {
@@ -151,6 +163,62 @@ a:active{
     padding-left: 5px;
     border-radius: 90px;
 }
+.catalog {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    width: 85vw;
+}
 
+.catalogname {
+    font-size: 3vh;
+}
+
+.product {
+    background-image: url("./penix/product1.png");
+    background-position: 0% 50%;
+    background-size: 150%;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+    border: 2px solid rgba(255, 255, 255, 0.26);
+    border-radius: 188px 188px 0px 100px;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+
+.product:hover {
+    background-size: 200%;
+    transition-duration: 0.5s;
+}
+
+
+
+.product-content {
+    width: 300px;
+    height: 160px;
+    background-color: rgba(0,0,0,0.80);
+    border-radius: 0px 0px 0px 60px;
+    margin-top: 80%;
+    font-family: 'Garamond';
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.product-content-name {
+    width: 90%;
+    height: 60%;
+}
+
+.product-content-price {
+    text-align: right;
+    width: 70%;
+    height: 30%;
+    margin-left: 20%;
+}
 
 
