@@ -71,8 +71,8 @@ a:active{
     border: 2px solid white;
     color: white;
     border-radius: 90px;
-    padding-right: 0.7vw;
-    padding-left: 0.7vw;
+    padding-right: 3%;
+    padding-left: 3%;
     background-color: black;
 }
 
@@ -127,10 +127,9 @@ a:active{
     border: none;
     display: flex;
     width: 88.4%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5vh;
+    margin: 5vh auto 1px;
     color: white;
+    height: 25%;
 }
 
 .group_of_imgs {
