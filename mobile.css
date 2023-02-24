@@ -64,13 +64,28 @@ a:active{
     display: flex;
     column-gap: 5vw;
     font-size: 4vw;
-    text-decoration-line: underline;
-    text-decoration-thickness: 1px;
 }
 
 .button {
-    border: 1px solid white;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 90px;
+    padding-right: 0.7vw;
+    padding-left: 0.7vw;
+    background-color: black;
 }
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.button:hover:active {
+    color: white;
+}
+
 
 .logo {
     position: absolute;
