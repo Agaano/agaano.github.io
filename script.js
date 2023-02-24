@@ -14,11 +14,7 @@ if (window.screen.height < window.screen.width)
             obj[i].addEventListener('mouseleave', () => blockanimoff(obj[i],i));
         }
 }
-else {   
-    for (let i = 0; i < obj.length; i++) {
-    obj[i].addEventListener('click', () => blockanimon(obj[i],i)); 
-    obj[i].addEventListener('mouseout', () => blockanimoff(obj[i],i));
-    }
+else {
 }
 
 
@@ -26,6 +22,7 @@ function blockanimon(obj,i) {
     clearInterval(intId[i]);
     let style = getComputedStyle(obj);
     let height = Math.trunc(Number(style.height.slice(0,-2)));
+    if (height >= objHeight) {}
     let maxheight = objHeight + addition;
     intId[i] = setInterval(() => {
         height += 10;

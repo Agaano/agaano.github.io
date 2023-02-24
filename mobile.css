@@ -93,7 +93,8 @@ a:active{
 }
 
 .header_bot {
-    font-size: initial;
+    font-size: 1.6vh;
+    overflow: hidden;
     font-family: Garamond;
     width: 87.5%;
     height: 20vh;
@@ -148,10 +149,11 @@ a:active{
     background-position: 50%;
     width: 100%;
     height: 15vh;
+    overflow: hidden;
 }
 
 .content {
-    display: none;
+    display: block;
     position: center;
     font-size: 1vh;
     color: rgba(255,255,255,0.8);
