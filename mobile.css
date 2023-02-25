@@ -132,6 +132,19 @@ a:active{
     height: 25%;
 }
 
+.header_bot.forproduct {
+    border-left: none;
+    font-size: 3.5vh;
+    font-family: 'Garamond';
+    display: block;
+    width: 88.4%;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    color: white;
+}
+
 .group_of_imgs {
     margin-left: auto;
     margin-right: auto;
@@ -246,6 +259,85 @@ a:active{
 }
 .product3 {
     background-image: url("./penix/product3.png");
+}
+
+.top {
+    display: flex;
+    width: 100%;
+}
+
+.product-name {
+    font-size: 75%;
+    width: 70%;
+}
+
+.catalog-name {
+    text-align: end;
+    width: 45.8%;
+    font-size: 50%;
+}
+
+.bot {
+}
+
+.product-img {
+    margin-top: 50px;
+    width: 100%;
+    height: 20vh;
+    border-radius: 180px;
+    border: 3px solid rgba(255,255,255, 0.50);
+    background-size: cover;
+    background-image: url("./penix/product1.1.png");
+    overflow: hidden;
+}
+
+.product-img-content {
+    width: 100%;
+    height: 1000vh;
+    background-color: rgba(0,0,0,0.75);
+    margin-top: 21.1%;
+    color: black;
+}
+
+.product-img-buttons {
+    margin-left: 18vw;
+    padding-top: 2vh;
+    font-size: 3vh;
+}
+
+.product-img-button {
+    background-color: #ceffbf;
+    border-radius: 50px 0 0 50px;
+    padding-right: 18px;
+    padding-left: 18px;
+    height: 33%;
+    color: black;
+}
+
+.product-img-button2 {
+    background-color: #ceffbf;
+    border-radius: 0 50px 50px 0;
+    padding-left: 5px;
+    padding-right: 7px;
+    color: black;
+}
+
+.product-description {
+    padding-top: 2vh;
+    margin-left: 2vw;
+    width: 100%;
+    font-size: 40px;
+}
+
+.price-sign {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 200% ;
+}
+
+.price {
+    display: inline-block;
+    color: #ceffbf;
 }
 
 
